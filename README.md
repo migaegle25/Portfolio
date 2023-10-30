@@ -6,22 +6,21 @@
 The Purpose of the porject is to build a website portfolio that contains my CV, Foto's Taken, Audio Recordings taken
 
 ## Project Folder Setup 
--PORTFOLIO-1
-|__code
-    |__backend
-        |_
-    |__frontend
-        |_
 
-|__frontend
-    |_css
-    |  |_main.css
-    |_main.html
+Portfolio
+1. Code
 
-|__images
-    |__css_images
-    |__uploaded_images
-    
-|__Misc
+    - Backend
+        - 
 
+    - Frontend
+        -    
         
+2. Images
+
+    - css_images
+
+    - uploaded_images
+
+3. Misc
+
