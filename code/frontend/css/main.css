@@ -1,0 +1,95 @@
+:root {
+    --clr-primary-400: 263 55% 52%;
+    --clr-secondary-400: 217 19% 35%;
+    --clr-secondary-500: 219 29% 14%;
+    --clr-neutral-100: 0 0% 100%;
+    --clr-neutral-200: 210 46% 95%;
+    --clr-neutral-300: 0 0% 81%;
+
+    --ff-primary: "Barlow Semi Condensed", sans-serif;
+
+    --fw-400: 500;
+    --fw-700: 600;
+
+    --fs-300: 0.6875rem;
+    --fs-400: 0.8125rem;
+    --fs-500: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-content: start;
+    text-align: center;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: hsl(var(--clr-neutral-100));
+    margin-inline: auto;
+}
+
+
+
+
+@media (min-width: 50em) {
+    /* .home-page {
+        grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+    } */
+
+    .home-page {
+        display: grid;
+        grid-gap: 1.5em;
+        width: min(95%, 70rem);
+        margin-inline: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100px 1fr));
+    }
+
+
+}
+
+.page-top-intro {
+    /* grid-column-start: 1;
+    grid-column-end: span 4; */
+
+    /* grid-column: 1 / span 4; */
+    grid-column: span 4;
+    min-width: 90%;
+    min-height: auto;
+
+    border: 3px solid red;
+}
+
+.middle-page-paragraph {
+    grid-column: span 2;
+
+    border: 2px solid red;
+}
+
+.image-of-me {
+    grid-column: span 2;
+}
+
+.image {
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
