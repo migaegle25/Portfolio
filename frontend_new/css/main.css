@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    padding: 10px;
+    gap: 10px;
+}
+
+.introduction {
+    grid-column: 1 / span 5;
+    text-align: center;
+    font-size: 35px;
+
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
