@@ -1,19 +1,35 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
-    padding: 10px;
-    gap: 10px;
-}
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.introduction {
-    grid-column: 1 / span 5;
-    text-align: center;
     font-size: 35px;
 
     border: 1px solid black;
     padding: 10px;
     margin: 0px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    gap: 2em;
+}
+
+.paragraph-of-me {
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+
+    grid-column: 1 / span 3;
+}
+
+
+.image-of-me {
+    grid-column: 4 / span 2;
 }
 
 .grid-item {
